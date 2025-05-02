@@ -25,20 +25,10 @@ Our method improves the flexibility and interpretability of outlier sampling by 
 
 ---
 
-## 📂 Project Structure
+## Code Run
+You need to download required dependicies before running the code 
 
-```bash
-project/
-│
-├── src/                    # Core codebase
-│   ├── encoder.py          # ResNet encoder with latent normalization
-│   ├── pnd_loss.py         # PND loss function and scoring
-│   ├── sampler.py          # Outlier embedding sampler
-│   ├── diffusion_hook.py   # Modified Stable Diffusion hook to inject embeddings
-│   ├── utils.py            # Helper functions (normalization, metrics, etc.)
-│
-├── outlier_embeddings.npy  # Precomputed outlier embeddings (optional)
-├── generate_images.py      # Generate OOD images using diffusion
-├── train_encoder.py        # Train latent space with PND loss
-├── requirements.txt        # Required dependencies
-├── README.md               # Project overview
+The colab file, including the full code, is provided. To run the code download the file and run it, but linux will be required for sampling
+
+
+--
