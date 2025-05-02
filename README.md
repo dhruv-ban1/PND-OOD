@@ -31,20 +31,14 @@ The colab file, including the full code, is provided.But directly running the co
 ## Code Run
 Create a virtual by running the command:-
 
-conda env create -f environment.yaml
-conda activate ldm
+- conda env create -f environment.yaml
+- conda activate ldm
 
 After it download the Xformers compatible with the CUDA on your device
 
 First, please download the Stable Diffusion 1.4 model [Hugging Face's Stable Diffusion v1.4](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/tree/main).
 
 
-Before using stable diffusion for generating images include the ** inference.yaml ** file in you folder in which you are running your code
+Before using stable diffusion for generating images include the ** inference.yaml ** file in you folder in which you are running your code.
 
-
-
-
-
-
-
---
+Now you generate your outlier images.
