@@ -25,10 +25,26 @@ Our method improves the flexibility and interpretability of outlier sampling by 
 
 ---
 
-## Code Run
-You need to download required dependicies before running the code 
 
-The colab file, including the full code, is provided. To run the code download the file and run it, but linux will be required for sampling
+The colab file, including the full code, is provided.But directly running the colab will not work one need to run it locally by installing the required dependencies, Linux will be required for sampling. 
+
+## Code Run
+Create a virtual by running the command:-
+
+conda env create -f environment.yaml
+conda activate ldm
+
+After it download the Xformers compatible with the CUDA on your device
+
+First, please download the Stable Diffusion 1.4 model [Hugging Face's Stable Diffusion v1.4](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/tree/main).
+
+
+Before using stable diffusion for generating images include the ** inference.yaml ** file in you folder in which you are running your code
+
+
+
+
+
 
 
 --
